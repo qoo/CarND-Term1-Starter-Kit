@@ -54,6 +54,8 @@ If you are on Windows, **rename**
 ```
 conda env create -f environment.yml
 ```
+If you us GPU, **use this**   
+`conda env create -f environment-gpu.yml` 
 
 *Note*: Some Mac users have reported issues installing TensorFlow using this method. The cause is unknown but seems to be related to `pip`. For the time being, we recommend opening environment.yml in a text editor and swapping
 ```yaml
