@@ -32,6 +32,17 @@ Supported Systems : AWS (CPU, [GPU](doc/docker_for_aws.md)), Linux (CPU), Mac (C
 | AWS, GPU support                    | Less community support               |
 | Practice with Docker              | Have to manage images and containers |
 |                                     |                                      |
+## Update env
+https://conda.io/docs/commands/env/conda-env-update.html#
+```
+conda-env update -n carnd-term1 -f environment-gpu.yml
+
+```
+        - https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.8.0-cp35-cp35m-linux_x86_64.whl
+or
+        - https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.4.0-cp35-cp35m-linux_x86_64.whl
+```
+```
 
 ## Trouble Shooting
 
